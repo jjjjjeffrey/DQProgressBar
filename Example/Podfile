@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'DQProgressBar_Example', :exclusive => true do
+  pod "DQProgressBar", :path => "../"
+end
+
+target 'DQProgressBar_Tests', :exclusive => true do
+  pod "DQProgressBar", :path => "../"
+
+  
+end
