@@ -17,7 +17,11 @@ DQProgressBar is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "DQProgressBar"
+source 'https://github.com/CocoaPods/Specs.git'
+source 'https://github.com/jjjjjeffrey/DQPodSpecs.git'
+platform :ios, '8.0'
+
+pod 'DQProgressBar', '~> 1.0.0'
 ```
 
 ## Author
