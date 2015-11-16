@@ -1,0 +1,14 @@
+PODS:
+  - DQProgressBar (0.1.0)
+
+DEPENDENCIES:
+  - DQProgressBar (from `../`)
+
+EXTERNAL SOURCES:
+  DQProgressBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  DQProgressBar: dc6ec9b1fada97f00a3619feb60b6bdc439a2afc
+
+COCOAPODS: 0.39.0

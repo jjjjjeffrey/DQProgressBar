@@ -1,0 +1,6 @@
+framework module DQProgressBar {
+  umbrella header "DQProgressBar-umbrella.h"
+
+  export *
+  module * { export * }
+}

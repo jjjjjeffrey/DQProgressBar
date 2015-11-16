@@ -1,0 +1,781 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080B274E00E4A1164DFB405008A385C7 /* Pods-DQProgressBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84CE92631464A7758E4F8929320BB0F0 /* Pods-DQProgressBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22A0370AC0CE30FCAF73E0D102B631B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		4719CDD9BA64121F9DE99E8612628528 /* DQGradientProgressBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B5C57030D75CC92F035501FD711F089 /* DQGradientProgressBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D20ADCC1C3FFBB2451AC91F3790E525 /* DQGradientProgressBar.m in Sources */ = {isa = PBXBuildFile; fileRef = DA783C5FB3099FCD4DC6883DEFC29F07 /* DQGradientProgressBar.m */; };
+		8D1B9494E1245F0CD55AB7A4206B649C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		8DCDF028C80E64AF03F91D1FB78C64FD /* Pods-DQProgressBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E29CC35DDD11A425DD87D8D430E9E8AE /* Pods-DQProgressBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8EECAB5BEC7F173B96C179F6FCA0274B /* DQProgressBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C4DFE253BF23ED3BE25C492DD26126E1 /* DQProgressBar.bundle */; };
+		A46DBEBC63A1BFDA44FD3E35A680C690 /* DQProgressBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BD44DE724FA07E2DF3D3A612EF8D04 /* DQProgressBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1A8AD670E0BEBB7B6C97F982EA6A99C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		BDF2E926A5CB48AE3117D2A1EBD2C3A8 /* DQProgressBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EE7953E89003018CAC98B945646FEB3 /* DQProgressBar-dummy.m */; };
+		C79B3580A5FABCE36C6F07D413F1E508 /* Pods-DQProgressBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F879EA62D2CF2512FFBA0997A53B0F /* Pods-DQProgressBar_Tests-dummy.m */; };
+		CC805543774E9698B67700F522DC593D /* Pods-DQProgressBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C980D90A73EC839BFD0BA088B5E7524 /* Pods-DQProgressBar_Example-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4611FB46D05A0FADDE432DE300411F5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 241DB746FA9D31088AB08D58272EEE98;
+			remoteInfo = "DQProgressBar-DQProgressBar";
+		};
+		5D2DB4500A24B20D5B96442467DED5B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4743FDB61CC33B1F190FE5110354A58;
+			remoteInfo = DQProgressBar;
+		};
+		8234DB1D6CEF77C9D4B4BFA9D176A113 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4743FDB61CC33B1F190FE5110354A58;
+			remoteInfo = DQProgressBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0247C0D79658C8516A9A62E7E866116D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045E805D34B513496D3F737396020845 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11487270B5AF10861C55752D331BA419 /* DQProgressBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DQProgressBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		152D6E6EF7DC8B9D790131D1DD61713A /* Pods-DQProgressBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DQProgressBar_Example.modulemap"; sourceTree = "<group>"; };
+		334CE6B5F1F4DB4175CFF65881200E24 /* DQProgressBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQProgressBar-prefix.pch"; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3ECD2F3BDEED46CF8E7C5AA14DD3ECC0 /* Pods-DQProgressBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DQProgressBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		40BD44DE724FA07E2DF3D3A612EF8D04 /* DQProgressBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DQProgressBar-umbrella.h"; sourceTree = "<group>"; };
+		55C57FAFC8CB4B3EA43BB2CF94B46E55 /* Pods_DQProgressBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQProgressBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F007FEC51E524BA03782A2173752E81 /* Pods-DQProgressBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQProgressBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		63A7280C438DB48AE1C63995FD58B216 /* Pods-DQProgressBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQProgressBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		63DE56C96DE06C8DC5132F81485C5AC5 /* Pods-DQProgressBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQProgressBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5C57030D75CC92F035501FD711F089 /* DQGradientProgressBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = DQGradientProgressBar.h; sourceTree = "<group>"; };
+		7C5A00529F902327857C78DC72F35FCB /* Pods-DQProgressBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQProgressBar_Example-frameworks.sh"; sourceTree = "<group>"; };
+		7C5F1FCD16382F2641AABCB40780A878 /* Pods-DQProgressBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQProgressBar_Tests-resources.sh"; sourceTree = "<group>"; };
+		81F879EA62D2CF2512FFBA0997A53B0F /* Pods-DQProgressBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQProgressBar_Tests-dummy.m"; sourceTree = "<group>"; };
+		84B9BFD777DBA398810791110FE53B65 /* Pods-DQProgressBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQProgressBar_Example.release.xcconfig"; sourceTree = "<group>"; };
+		84CE92631464A7758E4F8929320BB0F0 /* Pods-DQProgressBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DQProgressBar_Example-umbrella.h"; sourceTree = "<group>"; };
+		8C980D90A73EC839BFD0BA088B5E7524 /* Pods-DQProgressBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DQProgressBar_Example-dummy.m"; sourceTree = "<group>"; };
+		9EE7953E89003018CAC98B945646FEB3 /* DQProgressBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DQProgressBar-dummy.m"; sourceTree = "<group>"; };
+		B061BDB7424EEAC2B79A3097C239A754 /* Pods-DQProgressBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DQProgressBar_Example-resources.sh"; sourceTree = "<group>"; };
+		B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DQProgressBar.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C4BC086C4CD1D33FB0F997449149EC5B /* Pods-DQProgressBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DQProgressBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C4DFE253BF23ED3BE25C492DD26126E1 /* DQProgressBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DQProgressBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C507F30A52E2258AA8F7967A4C26A7E4 /* Pods-DQProgressBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQProgressBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBD49FAA3E59CC464437F977D2138104 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA6DA5D289F55AA96DC6AF90C7983FFA /* DQProgressBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DQProgressBar.modulemap; sourceTree = "<group>"; };
+		DA783C5FB3099FCD4DC6883DEFC29F07 /* DQGradientProgressBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = DQGradientProgressBar.m; sourceTree = "<group>"; };
+		E29CC35DDD11A425DD87D8D430E9E8AE /* Pods-DQProgressBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DQProgressBar_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E463333793D5B3322283C202341B137F /* Pods-DQProgressBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DQProgressBar_Tests.modulemap"; sourceTree = "<group>"; };
+		EAAB7FE87A9F3B5C926BA8CDCA407C7C /* Pods-DQProgressBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DQProgressBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EEE2141A8260184FA597EB7B5A991FAD /* Pods_DQProgressBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DQProgressBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8466B93A490EA3C76A358B6B44A3327 /* Pods-DQProgressBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DQProgressBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01C837E53ACD9A3D176E46D0C7B85135 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2909F64423CA9F0E05F0D4A2733C5656 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1A8AD670E0BEBB7B6C97F982EA6A99C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2EB530FCDCC3D9FF352C0F23A75D51DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A0370AC0CE30FCAF73E0D102B631B4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C80C05D2165710BB11AAF66F8E0382 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D1B9494E1245F0CD55AB7A4206B649C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0CD063339A71599CD24767966999398C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA6DA5D289F55AA96DC6AF90C7983FFA /* DQProgressBar.modulemap */,
+				B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */,
+				9EE7953E89003018CAC98B945646FEB3 /* DQProgressBar-dummy.m */,
+				334CE6B5F1F4DB4175CFF65881200E24 /* DQProgressBar-prefix.pch */,
+				40BD44DE724FA07E2DF3D3A612EF8D04 /* DQProgressBar-umbrella.h */,
+				0247C0D79658C8516A9A62E7E866116D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DQProgressBar";
+			sourceTree = "<group>";
+		};
+		4746F6DB9AB664554200C0F49517AB0F /* DQProgressBar */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA9E508E53D1C94C509F635AEC9685 /* Pod */,
+				0CD063339A71599CD24767966999398C /* Support Files */,
+			);
+			name = DQProgressBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6050B1B16CD05ABE9AEA92FB91EBA4CC /* Pods-DQProgressBar_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				CBD49FAA3E59CC464437F977D2138104 /* Info.plist */,
+				E463333793D5B3322283C202341B137F /* Pods-DQProgressBar_Tests.modulemap */,
+				5F007FEC51E524BA03782A2173752E81 /* Pods-DQProgressBar_Tests-acknowledgements.markdown */,
+				3ECD2F3BDEED46CF8E7C5AA14DD3ECC0 /* Pods-DQProgressBar_Tests-acknowledgements.plist */,
+				81F879EA62D2CF2512FFBA0997A53B0F /* Pods-DQProgressBar_Tests-dummy.m */,
+				63A7280C438DB48AE1C63995FD58B216 /* Pods-DQProgressBar_Tests-frameworks.sh */,
+				7C5F1FCD16382F2641AABCB40780A878 /* Pods-DQProgressBar_Tests-resources.sh */,
+				E29CC35DDD11A425DD87D8D430E9E8AE /* Pods-DQProgressBar_Tests-umbrella.h */,
+				EAAB7FE87A9F3B5C926BA8CDCA407C7C /* Pods-DQProgressBar_Tests.debug.xcconfig */,
+				C507F30A52E2258AA8F7967A4C26A7E4 /* Pods-DQProgressBar_Tests.release.xcconfig */,
+			);
+			name = "Pods-DQProgressBar_Tests";
+			path = "Target Support Files/Pods-DQProgressBar_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				E68B82C048634686604450CB1BFC62C1 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				9BF78D93969420FDBB58E710FAFC22E8 /* Products */,
+				84EE8B12E0F97D8F23A6CF7C01DD8C6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84EE8B12E0F97D8F23A6CF7C01DD8C6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B19B89A62FC7DBE5038A9A284134729F /* Pods-DQProgressBar_Example */,
+				6050B1B16CD05ABE9AEA92FB91EBA4CC /* Pods-DQProgressBar_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		8B433ED9090D390D1F888A92D49463F0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7B5C57030D75CC92F035501FD711F089 /* DQGradientProgressBar.h */,
+				DA783C5FB3099FCD4DC6883DEFC29F07 /* DQGradientProgressBar.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9BF78D93969420FDBB58E710FAFC22E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4DFE253BF23ED3BE25C492DD26126E1 /* DQProgressBar.bundle */,
+				11487270B5AF10861C55752D331BA419 /* DQProgressBar.framework */,
+				55C57FAFC8CB4B3EA43BB2CF94B46E55 /* Pods_DQProgressBar_Example.framework */,
+				EEE2141A8260184FA597EB7B5A991FAD /* Pods_DQProgressBar_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B19B89A62FC7DBE5038A9A284134729F /* Pods-DQProgressBar_Example */ = {
+			isa = PBXGroup;
+			children = (
+				045E805D34B513496D3F737396020845 /* Info.plist */,
+				152D6E6EF7DC8B9D790131D1DD61713A /* Pods-DQProgressBar_Example.modulemap */,
+				C4BC086C4CD1D33FB0F997449149EC5B /* Pods-DQProgressBar_Example-acknowledgements.markdown */,
+				F8466B93A490EA3C76A358B6B44A3327 /* Pods-DQProgressBar_Example-acknowledgements.plist */,
+				8C980D90A73EC839BFD0BA088B5E7524 /* Pods-DQProgressBar_Example-dummy.m */,
+				7C5A00529F902327857C78DC72F35FCB /* Pods-DQProgressBar_Example-frameworks.sh */,
+				B061BDB7424EEAC2B79A3097C239A754 /* Pods-DQProgressBar_Example-resources.sh */,
+				84CE92631464A7758E4F8929320BB0F0 /* Pods-DQProgressBar_Example-umbrella.h */,
+				63DE56C96DE06C8DC5132F81485C5AC5 /* Pods-DQProgressBar_Example.debug.xcconfig */,
+				84B9BFD777DBA398810791110FE53B65 /* Pods-DQProgressBar_Example.release.xcconfig */,
+			);
+			name = "Pods-DQProgressBar_Example";
+			path = "Target Support Files/Pods-DQProgressBar_Example";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D1AA9E508E53D1C94C509F635AEC9685 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				8B433ED9090D390D1F888A92D49463F0 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		E68B82C048634686604450CB1BFC62C1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4746F6DB9AB664554200C0F49517AB0F /* DQProgressBar */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		431E1809E5E65ED1F9AFA2BD301DD0BD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080B274E00E4A1164DFB405008A385C7 /* Pods-DQProgressBar_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48320756DA38EA5D9AC1A82A1BB8C89B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DCDF028C80E64AF03F91D1FB78C64FD /* Pods-DQProgressBar_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA0D8A7A1DCDAF08B21CB02B8891332F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A46DBEBC63A1BFDA44FD3E35A680C690 /* DQProgressBar-umbrella.h in Headers */,
+				4719CDD9BA64121F9DE99E8612628528 /* DQGradientProgressBar.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		241DB746FA9D31088AB08D58272EEE98 /* DQProgressBar-DQProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFBABDB755864CED0EF008AF7F37B2B6 /* Build configuration list for PBXNativeTarget "DQProgressBar-DQProgressBar" */;
+			buildPhases = (
+				D86D4B6144823EF436FEB1778F5B4685 /* Sources */,
+				01C837E53ACD9A3D176E46D0C7B85135 /* Frameworks */,
+				E71617D81337DD6A4BDEFCAF70A5460D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DQProgressBar-DQProgressBar";
+			productName = "DQProgressBar-DQProgressBar";
+			productReference = C4DFE253BF23ED3BE25C492DD26126E1 /* DQProgressBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7C5B0E2D3EA5AC649CBA02561F60EF2B /* Pods-DQProgressBar_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 826071B74DB0049D1ECB5BE35C1F8C1D /* Build configuration list for PBXNativeTarget "Pods-DQProgressBar_Example" */;
+			buildPhases = (
+				81CED12233AB499EBF098F162BC253F7 /* Sources */,
+				55C80C05D2165710BB11AAF66F8E0382 /* Frameworks */,
+				431E1809E5E65ED1F9AFA2BD301DD0BD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D15F053541EDA468675F52E3C601644D /* PBXTargetDependency */,
+			);
+			name = "Pods-DQProgressBar_Example";
+			productName = "Pods-DQProgressBar_Example";
+			productReference = 55C57FAFC8CB4B3EA43BB2CF94B46E55 /* Pods_DQProgressBar_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AC4915544435F0CCEB427D74D0A6428A /* Pods-DQProgressBar_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DAC80B3422BBE18363A766FC32898840 /* Build configuration list for PBXNativeTarget "Pods-DQProgressBar_Tests" */;
+			buildPhases = (
+				3FCE550ED3B28247734279F2C8E472C3 /* Sources */,
+				2909F64423CA9F0E05F0D4A2733C5656 /* Frameworks */,
+				48320756DA38EA5D9AC1A82A1BB8C89B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B64D51C27D4D65E7B259A4535D7B7A3 /* PBXTargetDependency */,
+			);
+			name = "Pods-DQProgressBar_Tests";
+			productName = "Pods-DQProgressBar_Tests";
+			productReference = EEE2141A8260184FA597EB7B5A991FAD /* Pods_DQProgressBar_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E4743FDB61CC33B1F190FE5110354A58 /* DQProgressBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C9B493307A8A1511A25CBBCC9FE53AA5 /* Build configuration list for PBXNativeTarget "DQProgressBar" */;
+			buildPhases = (
+				4B39CA8C5B31CB185BAAFFA6199F1049 /* Sources */,
+				2EB530FCDCC3D9FF352C0F23A75D51DE /* Frameworks */,
+				5ABE78002E66E9246CF80047E62E871A /* Resources */,
+				AA0D8A7A1DCDAF08B21CB02B8891332F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EDF945F0FD1E8EE5B431D18CA5CCFCA7 /* PBXTargetDependency */,
+			);
+			name = DQProgressBar;
+			productName = DQProgressBar;
+			productReference = 11487270B5AF10861C55752D331BA419 /* DQProgressBar.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9BF78D93969420FDBB58E710FAFC22E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4743FDB61CC33B1F190FE5110354A58 /* DQProgressBar */,
+				241DB746FA9D31088AB08D58272EEE98 /* DQProgressBar-DQProgressBar */,
+				7C5B0E2D3EA5AC649CBA02561F60EF2B /* Pods-DQProgressBar_Example */,
+				AC4915544435F0CCEB427D74D0A6428A /* Pods-DQProgressBar_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5ABE78002E66E9246CF80047E62E871A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8EECAB5BEC7F173B96C179F6FCA0274B /* DQProgressBar.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71617D81337DD6A4BDEFCAF70A5460D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3FCE550ED3B28247734279F2C8E472C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C79B3580A5FABCE36C6F07D413F1E508 /* Pods-DQProgressBar_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B39CA8C5B31CB185BAAFFA6199F1049 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDF2E926A5CB48AE3117D2A1EBD2C3A8 /* DQProgressBar-dummy.m in Sources */,
+				7D20ADCC1C3FFBB2451AC91F3790E525 /* DQGradientProgressBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81CED12233AB499EBF098F162BC253F7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC805543774E9698B67700F522DC593D /* Pods-DQProgressBar_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D86D4B6144823EF436FEB1778F5B4685 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B64D51C27D4D65E7B259A4535D7B7A3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DQProgressBar;
+			target = E4743FDB61CC33B1F190FE5110354A58 /* DQProgressBar */;
+			targetProxy = 8234DB1D6CEF77C9D4B4BFA9D176A113 /* PBXContainerItemProxy */;
+		};
+		D15F053541EDA468675F52E3C601644D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DQProgressBar;
+			target = E4743FDB61CC33B1F190FE5110354A58 /* DQProgressBar */;
+			targetProxy = 5D2DB4500A24B20D5B96442467DED5B4 /* PBXContainerItemProxy */;
+		};
+		EDF945F0FD1E8EE5B431D18CA5CCFCA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "DQProgressBar-DQProgressBar";
+			target = 241DB746FA9D31088AB08D58272EEE98 /* DQProgressBar-DQProgressBar */;
+			targetProxy = 4611FB46D05A0FADDE432DE300411F5C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03CA91998D6773EC5D02B3DB87B8353E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		1F78F49814BE1CDE21EB0B7391A29BD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C507F30A52E2258AA8F7967A4C26A7E4 /* Pods-DQProgressBar_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQProgressBar_Tests/Pods-DQProgressBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DQProgressBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2988BE0E65A1380CFC03D57B94872E90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84B9BFD777DBA398810791110FE53B65 /* Pods-DQProgressBar_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQProgressBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQProgressBar_Example/Pods-DQProgressBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DQProgressBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2E855246DCF278104842CACF928153D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DQProgressBar/DQProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQProgressBar/DQProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DQProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		749BF193ED0AFA4BEF73314644D0E6A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63DE56C96DE06C8DC5132F81485C5AC5 /* Pods-DQProgressBar_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQProgressBar_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQProgressBar_Example/Pods-DQProgressBar_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DQProgressBar_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A00BF4BA8BCCBF32977EFEA7E31912C1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DQProgressBar/DQProgressBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DQProgressBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DQProgressBar/DQProgressBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DQProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C0202C05E1782E9B2BB3D4008A02B18F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DQProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		D4178EF62073615D69B79E7CB36EA00A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99A3C9B7D1669FA8A337D15F215F51F /* DQProgressBar.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = DQProgressBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		FA74F02D5A496881740277543E49F355 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAAB7FE87A9F3B5C926BA8CDCA407C7C /* Pods-DQProgressBar_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DQProgressBar_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DQProgressBar_Tests/Pods-DQProgressBar_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_DQProgressBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B57334D6C23DADAA4F7D802A5760EB2 /* Debug */,
+				03CA91998D6773EC5D02B3DB87B8353E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		826071B74DB0049D1ECB5BE35C1F8C1D /* Build configuration list for PBXNativeTarget "Pods-DQProgressBar_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				749BF193ED0AFA4BEF73314644D0E6A8 /* Debug */,
+				2988BE0E65A1380CFC03D57B94872E90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C9B493307A8A1511A25CBBCC9FE53AA5 /* Build configuration list for PBXNativeTarget "DQProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00BF4BA8BCCBF32977EFEA7E31912C1 /* Debug */,
+				2E855246DCF278104842CACF928153D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DAC80B3422BBE18363A766FC32898840 /* Build configuration list for PBXNativeTarget "Pods-DQProgressBar_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA74F02D5A496881740277543E49F355 /* Debug */,
+				1F78F49814BE1CDE21EB0B7391A29BD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFBABDB755864CED0EF008AF7F37B2B6 /* Build configuration list for PBXNativeTarget "DQProgressBar-DQProgressBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D4178EF62073615D69B79E7CB36EA00A /* Debug */,
+				C0202C05E1782E9B2BB3D4008A02B18F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
